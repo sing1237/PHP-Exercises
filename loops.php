@@ -44,7 +44,7 @@ for example:
 */
 
 for($i=0;$i<sizeOf($randoms);$i++){
-	if($randoms[$i] % 2 == 0){
+	if($randoms[$i] % 2 != 0){
 		echo $randoms[$i]."<br>";
 	}
 }
